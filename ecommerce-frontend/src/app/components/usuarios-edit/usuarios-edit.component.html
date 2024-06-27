@@ -1,0 +1,26 @@
+<div class="container">
+  <form [formGroup]="usuarioForm" (ngSubmit)="onSubmit()">
+    <h2>Editar Usuario</h2>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" formControlName="nombre">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" formControlName="email">
+        </div>
+      </div>
+    </div>
+    <!-- Agrega aquí más campos según los datos de tu usuario -->
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <button type="submit" class="btn btn-primary">Actualizar Usuario</button>
+      </div>
+    </div>
+  </form>
+</div>

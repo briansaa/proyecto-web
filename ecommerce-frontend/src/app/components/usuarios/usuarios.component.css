@@ -1,0 +1,101 @@
+/* Estilos generales */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+/* Estilos de la tabla */
+
+.tabla-personalizada {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.tabla-encabezado {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla-encabezado th {
+  text-align: left;
+  padding: 10px;
+}
+
+.tabla-fila {
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla-fila td {
+  padding: 10px;
+}
+
+.tabla-fila td:last-child {
+  text-align: center;
+}
+
+/* Estilos de los botones */
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #23527c;
+}
+
+.btn-info {
+  background-color: #5bc0de;
+  color: #fff;
+}
+
+.btn-info:hover {
+  background-color: #31b0d5;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #c9302c;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+/* Iconos */
+
+.fas {
+  margin-right: 5px;
+}

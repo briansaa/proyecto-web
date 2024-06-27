@@ -1,0 +1,17 @@
+nav {
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 10px; /* Espacio interno */
+    margin-bottom: 20px; /* Margen inferior */
+  }
+
+  nav a {
+    text-decoration: none; /* Quitar subrayado del enlace */
+    color: #333; /* Color del texto del enlace */
+    margin-right: 10px; /* Espacio entre enlaces */
+    padding: 5px 10px; /* Espaciado interno de los enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+
+  nav a:hover {
+    background-color: #ddd; /* Color de fondo al pasar el mouse */
+  }

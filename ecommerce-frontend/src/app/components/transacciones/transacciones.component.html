@@ -1,0 +1,27 @@
+<div class="container mt-5">
+  <h2  class="text-center mb-4">Lista de Transacciones</h2>
+  <button class="btn btn-primary mb-3" (click)="irAFormulario()">Agregar Transacción</button>
+  <table  class="table tabla-personalizada" >
+    <thead class="tabla-encabezado"> 
+      <tr>
+        <th>Usuario ID</th>
+        <th>Producto</th>
+        <th>Cantidad</th>
+        <th>Fecha</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let transaccion of transacciones" class="tabla-fila">
+        <td>{{ transaccion.usuario_id }}</td>
+        <td>{{ transaccion.producto }}</td>
+        <td>{{ transaccion.cantidad }}</td>
+        <td>{{ transaccion.fecha }}</td>
+        <td>
+          <button class="btn btn-danger" (click)="deleteTransaccion(transaccion.id)">Eliminar</button>
+      <!--     <button class="btn btn-warning" (click)="irAEditarTransaccion(transaccion.id)">Editar</button> -->
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,58 @@
+.container {
+  max-width: 800px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centrado horizontal */
+  padding: 30px;
+  background-color: #ffffff; /* Color de fondo */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  border-radius: 8px; /* Borde redondeado */
+  display: flex; /* Uso de flexbox */
+  flex-direction: column; /* Dirección de los elementos */
+  align-items: center; /* Centra horizontalmente los elementos */
+}
+
+h2 {
+  font-size: 24px; /* Tamaño de fuente del título */
+  margin-bottom: 30px; /* Espacio inferior */
+  color: #333; /* Color del texto */
+}
+
+.row {
+  margin-bottom: 20px; /* Espacio entre filas */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Espacio inferior de los grupos de formulario */
+}
+
+.form-control {
+  width: 100%; /* Ancho completo del campo de entrada */
+  padding: 12px; /* Relleno interno */
+  font-size: 16px; /* Tamaño de fuente */
+  border: 1px solid #ddd; /* Borde */
+  border-radius: 4px; /* Borde redondeado */
+}
+
+.form-control:focus {
+  outline: none; /* Elimina el borde de enfoque predeterminado */
+  border-color: #007bff; /* Color del borde al enfocar */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra al enfocar */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Color de fondo del botón */
+  border-color: #007bff; /* Color del borde del botón */
+  width: 100%; /* Ancho completo del botón */
+  padding: 12px; /* Relleno interno */
+  font-size: 18px; /* Tamaño de fuente */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Transición suave */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el mouse */
+  border-color: #0056b3; /* Color del borde al pasar el mouse */
+}
+
+.btn-primary:focus {
+  outline: none; /* Elimina el borde de enfoque predeterminado */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra al enfocar */
+}

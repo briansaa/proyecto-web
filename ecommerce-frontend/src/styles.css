@@ -1,0 +1,7 @@
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3TWRHCfkpo7DVYr-1mIjaiZK2KUhPyk8NSr_Yxp7fmXwdbCjxdpqbaxHntA9GfED6nkU&usqp=CAU');
+  background-size: 1920px 1080px; /* Establece el tamaño de la imagen de fondo */
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}

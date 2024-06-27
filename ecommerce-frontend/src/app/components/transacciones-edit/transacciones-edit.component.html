@@ -1,0 +1,18 @@
+<div class="container">
+  <h2>Editar Transacción</h2>
+  <form [formGroup]="transaccionForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="producto">Producto</label>
+      <input type="text" id="producto" class="form-control" formControlName="producto">
+    </div>
+    <div class="form-group">
+      <label for="cantidad">Cantidad</label>
+      <input type="number" id="cantidad" class="form-control" formControlName="cantidad">
+    </div>
+    <div class="form-group">
+      <label for="fecha">Fecha</label>
+      <input type="date" id="fecha" class="form-control" formControlName="fecha">
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="transaccionForm.invalid">Guardar Cambios</button>
+  </form>
+</div>
